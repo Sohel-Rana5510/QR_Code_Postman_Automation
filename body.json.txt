@@ -1,0 +1,8 @@
+{
+  "firstName": "{{$randomFullName}}",
+  "email": "{{$randomEmail}}",
+  "branchId": "3a1cf4b9-e92d-a110-4aee-25cc473f4f6e",
+  "serviceTypeId": "{{randomServiceTypeId}}",
+  "customerType": "Customer",
+  "phone": "{{randomPhone}}"
+}
