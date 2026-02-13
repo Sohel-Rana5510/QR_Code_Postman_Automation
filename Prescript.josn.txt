@@ -1,0 +1,11 @@
+// Use actual IDs from your system here
+const services = [
+    "3a1cf4b9-e92d-a110-4aee-25cc473f4f6e", // Example GUID
+    "another-valid-guid-here"
+];
+const randomService = services[Math.floor(Math.random() * services.length)];
+
+// Use collectionVariables for the Runner
+pm.collectionVariables.set("randomServiceTypeId", randomService);
+pm.collectionVariables.set("randomPhone", "01" + Math.floor(Math.random() * 900000000 + 100000000));
+pm.collectionVariables.set("randomFullName", pm.variables.replaceIn('{{$randomFullName}}'));
